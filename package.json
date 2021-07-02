@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js",
-    "test": "",
+    "test": "cypress run",
     "lint": "eslint src/**/*.js(x) --fix",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

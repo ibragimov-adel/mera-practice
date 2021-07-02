@@ -1,5 +1,7 @@
 import { random } from './utils';
 
+console.log('hello world')
+
 const request = (id) => {
 	return fetch(`https://jsonplaceholder.typicode.com/todos/${id}`);
 };
