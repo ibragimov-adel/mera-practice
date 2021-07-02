@@ -9,7 +9,8 @@
     "test": "",
     "lint": "eslint src/**/*.js(x) --fix",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cypress": "^7.6.0",
     "eslint": "^7.29.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
